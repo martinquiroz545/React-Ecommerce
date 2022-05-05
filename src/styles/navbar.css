@@ -94,3 +94,14 @@
     display: block;
   }
 }
+
+/* Cart Widget Icon Styles */
+
+.myCart {
+  display: block;
+  align-items: flex-end;
+}
+.myCart img {
+  align-items: flex-end;
+  height: 1.5rem;
+}

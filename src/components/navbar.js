@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../styles/navbar.css";
 import logohayabusa from "../img/hayabusalogo.png";
+import CartWidget from "./cartwidget";
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -48,6 +49,9 @@ export default function Navbar() {
           </li>
           <li>
             <a href="/contact">Contacto</a>
+          </li>
+          <li>
+            <CartWidget />
           </li>
         </ul>
       </div>
